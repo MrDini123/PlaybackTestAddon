@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.playbacktest" name="PlayBack Test" version="0.7.0" provider-name="Mr Dini">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+        <summary lang="en_gb">PlayBack Test</summary>
+    <description lang="en_gb">PlayBack Test.</description>
+    <platform>all</platform>
+    <license>GNU AFFERO GENERAL PUBLIC LICENSE. Version 3, 19 November 2007</license>
+  </extension>
+</addon>
