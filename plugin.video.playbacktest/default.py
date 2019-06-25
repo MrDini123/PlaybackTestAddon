@@ -11,6 +11,7 @@ class MyPlayer(xbmc.Player):
             "The Player has been initialized with the URL: %s" % (self.url),
             xbmc.LOGERROR,
         )
+        xbmc.Player.__init__(self)
 
     def onPlayBackStarted(self):
         xbmc.log("Playback started!", xbmc.LOGERROR)
